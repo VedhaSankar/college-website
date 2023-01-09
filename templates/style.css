@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+
+    margin: 0px;
+    padding: 10px;
+    background-image: url("https://cdn.pixabay.com/photo/2020/09/29/10/42/library-5612441_960_720.jpg");
+    height: 400px;
+    color: azure;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+
+
+}
+
+header span {
+    text-align: left;
+    padding-left: 0px;
+    font-family: "Pacifico", "cursive";
+    font-weight: 100;
+    font-size: 50px;
+}
+
+
+header li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+header li {
+
+    list-style-type: none;
+    display: inline;
+    float: right;
+    color: aliceblue;
+    margin: 0px;
+    padding: 10px;
+    padding-left: 20px;
+    border-right: 1px solid whitesmoke;
+    text-align: right;
+    float: inline-end;
+
+}
+
+header li:first-child {
+    border-right: none;
+}
+
+
+.logo {
+    margin-top: 10px;
+    width: 200px;
+    height: fit-content;
+    display: grid;
+    margin-left: 10px;
+    float: left;
+}
+
+.header-items {
+    display: grid;
+    margin-top: 0px;
+    margin-left: 30rem;
+}
+
+.header-applications p {
+
+    margin: 0px;
+    padding: 0px;
+    margin-top: 8rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 10px;
+
+}
+
+
+header a {
+
+    text-decoration: none;
+    font-size: x-large;
+    text-align: center;
+}
+
+header button {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: grid;
+    padding: 1%;
+    background-color: #EAC7C7;
+    margin-top: 10px;
+
+}
+
+.buttons {
+    float: left;
+    padding: 2%;
+
+}
+
+.buttons a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding-left: 50px;
+}
+
+.c1 {
+    background-color: darkblue;
+    /* display: inline;
+    background-color: yellowgreen; */
+}
+
+.c2 p {
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    padding-right: 20rem;
+    /* padding-left: 15px; */
+    padding-top: 8rem;
+    font-size: 25px;
+    font-weight: 100;
+    font-style: oblique;
+
+}
+
+.alumni {
+    background-color: #EAC7C7;
+    padding-top: 20%;
+    margin: 20px;
+}
